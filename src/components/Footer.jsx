@@ -51,10 +51,12 @@ const Footer = () => {
       <div className="flex flex-col items-center justify-between md:flex-row md:px-20 py-1 ">
         <div>
           <p className="text-sm text-center px-12 py-4 lg:px-20 md:text-left">
-            Audiophile is an all in one stop to fulfill your audio needs. We're
-            a small team of music lovers and sound specialists who are devoted
-            to helping you get the most out of personal audio. Come and visit
-            our demo facility - we’re open 7 days a week.
+            Audiophile is an all in one stop to fulfill your audio needs.
+            <br></br> We're a small team of music lovers and sound specialists
+            <br></br>
+            who are devoted to helping you get the most out of<br></br> personal
+            audio. Come and visit our demo facility<br></br>we’re open 7 days a
+            week.
           </p>
         </div>
         {/* SOCIAL MEDIA */}
