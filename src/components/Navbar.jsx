@@ -110,27 +110,39 @@ const Navbar = () => {
       {/* End Of  Mobile Menu */}
 
       <div
-        className=" ml-[10vw]  text-white  p-8 w-[300px]
-        font-josefin-sans text-center md:text-center
-        lg:text-left lg:ml-24  md:ml-44  md:w-[415px] md:h-[400px]"
+        className="mx-auto text-white px-10 py-12 w-[90vw] max-w-[300px]
+             font-josefin-sans text-center md:w-[415px] md:ml-auto md:mr-auto md:h-[400px]
+             lg:text-left lg:ml-24 "
       >
-        {/* text-xl md:text-xl lg:text-xl */}
+        {/* mx-auto :Centers the container horizontally in the viewport.
+        w-[90vw] max-w-[300px]: Ensures the width of the container is responsive, taking up 90% of the viewport width but not exceeding 300px on small screens.
+        md:w-[415px] md:ml-auto md:mr-auto: Sets a fixed width for medium screens and ensures it is centered. */}
         <h3 className="uppercase  mb-4 text-gray-400/40 "> new product</h3>
         <p
-          data-aos="fade-down"
+          data-aos="zoom-in-up"
           data-aos-duration="1000" //animation duration for a smoother or faster effect
           data-aos-easing="ease-in-out" //Change the easing function for different animation effects.
           data-aos-delay="10" //Add a delay to stagger the animations.
           data-aos-once="false" //Control if the animation happens only once or every time the element is scrolled into view.
           data-aos-mirror="true" //Repeat the animation when scrolling up.
           data-aos-offset="100" //Adjust the trigger point of the animation relative to the viewport.
-          className="uppercase font-bold text-3xl  md:text-4xl lg:text-5xl"
+          className="uppercase font-semibold text-2xl  md:text-3xl  "
         >
-          xx99 mark II <br></br> headphones <br></br>
+          xx 99 mark II
         </p>
-        <p className="mt-4 text-gray-400/60 text-sm">
+        <p
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="uppercase font-bold text-xl  md:text-3xl  "
+        >
+          headphones
+        </p>
+        <p className="mt-4 text-gray-400/60 text-sm ">
           Experience natural,lifelike audio and exceptionalbuild quality made
-          for the passionate music<br></br> enthusiast.
+          for the passionate music enthusiast.
         </p>
         <Ripples
           color="rgba(255, 255, 255, 0.3)"
