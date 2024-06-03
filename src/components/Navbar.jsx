@@ -134,7 +134,7 @@ const Navbar = () => {
         </p>
         <Ripples
           color="rgba(255, 255, 255, 0.3)"
-          className="text-white bg-orange-600 p-2  uppercase mt-6 rounded cursor-pointer "
+          className="text-white text-sm   bg-orange-600 px-5 py-2.5  uppercase mt-6 rounded cursor-pointer "
           data-aos="zoom-in-up"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
