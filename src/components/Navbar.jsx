@@ -126,9 +126,9 @@ const Navbar = () => {
           data-aos-once="false" //Control if the animation happens only once or every time the element is scrolled into view.
           data-aos-mirror="true" //Repeat the animation when scrolling up.
           data-aos-offset="100" //Adjust the trigger point of the animation relative to the viewport.
-          className="uppercase font-semibold text-2xl  md:text-3xl  "
+          className="uppercase font-bold text-2xl  md:text-3xl  "
         >
-          xx 99 mark II
+          xx99 mark II
         </p>
         <p
           data-aos="fade-up"
@@ -146,7 +146,7 @@ const Navbar = () => {
         </p>
         <Ripples
           color="rgba(255, 255, 255, 0.3)"
-          className="text-white text-sm   bg-orange-600 px-5 py-2.5  uppercase mt-6 rounded cursor-pointer "
+          className="text-white text-sm   bg-orange-600 px-5 py-2.5  uppercase mt-6  cursor-pointer "
           data-aos="zoom-in-up"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
