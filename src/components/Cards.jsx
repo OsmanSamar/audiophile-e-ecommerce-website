@@ -14,9 +14,9 @@ const cards = [
 const Cards = () => {
   return (
     <div
-      className={`grid grid-cols-1 gap-6  sm:grid-cols-2 lg:grid-cols-3 mx-14 sm:mx-12 md:mx-16 lg:mx-20 xl:mx-32 pb-28 `}
+      className={`grid grid-cols-1 gap-6  sm:grid-cols-2 lg:grid-cols-3 mx-8 sm:mx-12 md:mx-16 lg:mx-20 xl:mx-32 pb-28 `}
     >
-      {/* mx-4 sm:mx-8 md:mx-16 lg:mx-20 xl:mx-32: Responsive margins to ensure proper spacing on different screen sizes. */}
+      {/* mx-8 sm:mx-12 md:mx-16 lg:mx-20 xl:mx-32: Responsive margins to ensure proper spacing on different screen sizes. */}
       {cards.map((card, index) => (
         <div
           key={card.id}
